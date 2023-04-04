@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-position: center;
+    background-image: url(images/orange.jpg);
+    width: 100%;
+    height: 100vh;
+
+}
+.nav{
+    position: fixed;
+    width: 100%;
+    height: 58px;
+    background-color:rgb(10, 77, 10);
+}
+.navbar h1{
+    color:orange ;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-nav{
+    display: flex;
+    margin-left:645px;
+}
+.icon{
+    margin-top: -50px;
+    width: 35px;
+    height: 60px;
+    
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container form{
+    width: 50%;
+    border: 1px solid;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 gray;
+    background-color: #ffffff5a;
+}
+.formrow{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.formlabel{
+    flex: 1;
+}
+.forminput{
+    border: 1px soldi gray;
+    padding: 4px 10px;
+    border-radius: 5px;
+    flex: 2;
+    font-size: 16px;
+    caret-color: orange;
+}
+.forminput:focus{
+    outline: none;
+    border: 1px solid orange;
+}
+#iconinputcontainet{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    color: rgb(238, 159, 12);
+}
+
+.formbtncontainer button{
+    width: 50%;
+    padding: 6px;
+    border: 2px solid orange;
+    background-color: orange;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 90px;
+    transition: all 0.2s linear;
+}
+.formbtncontainer button:hover{
+background-color: #fff;
+color: orange;
+}
